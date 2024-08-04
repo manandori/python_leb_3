@@ -1,0 +1,19 @@
+Class Employee:
+    Def __init__(self, name, date_of_join, designation, salary):
+        Self.name = name
+        Self.date_of_join = date_of_join
+        Self.designation = designation
+        Self.salary = salary
+
+    Def display(self):
+        Print(f”Name: {self.name}”)
+        Print(f”Date of Join: {self.date_of_join}”)
+        Print(f”Designation: {self.designation}”)
+        Print(f”Salary: {self.salary}”)
+
+# Creating an employee object
+Emp = Employee(“John Doe”, “2024-07-01”, “Software Engineer”, 75000)
+
+# Displaying employee details
+Emp.display()
+

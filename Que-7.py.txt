@@ -1,0 +1,12 @@
+Def insertion_sort(elements):
+    For i in range(1, len(elements)):
+        Key = elements[i]
+        J = i – 1
+        While j >= 0 and key < elements[j]:
+            Elements[j + 1] = elements[j]
+            J -= 1
+        Elements[j + 1] = key
+
+Elements = [1, 4, 2, 8, 23]
+Insertion_sort(elements)
+Print(f”Sorted elements: {elements}”)

@@ -1,0 +1,12 @@
+Def selection_sort(elements):
+    For i in range(len(elements)):
+        Min_index = i
+        For j in range(i + 1, len(elements)):
+            If elements[j] < elements[min_index]:
+                Min_index = j
+        Elements[i], elements[min_index] = elements[min_index], elements[i]
+
+Elements = [22, 13, 4, 8, 17, 26, 53, 4]
+Selection_sort(elements)
+Print(f”Sorted elements: {elements}”)
+

@@ -1,0 +1,26 @@
+Class Company:
+    Def __init__(self, name, city, mobile_no):
+        Self.name = name
+        Self.city = city
+        Self.mobile_no = mobile_no
+
+Class Employee(Company):
+    Def __init__(self, name, city, mobile_no, emp_name, designation, salary):
+        Super().__init__(name, city, mobile_no)
+        Self.emp_name = emp_name
+        Self.designation = designation
+        Self.salary = salary
+
+    Def display(self):
+        Print(f”Company Name: {self.name}”)
+        Print(f”City: {self.city}”)
+        Print(f”Mobile No: {self.mobile_no}”)
+        Print(f”Employee Name: {self.emp_name}”)
+        Print(f”Designation: {self.designation}”)
+        Print(f”Salary: {self.salary}”)
+
+# Creating an employee object
+Emp = Employee(“Tech Solutions”, “New York”, “123-456-7890”, “Jane Smith”, “Developer”, 85000)
+
+# Displaying employee details
+Emp.display()

@@ -1,0 +1,24 @@
+Class Calculator:
+    Def __init__(self):
+        Self.__result = 0  # Private variable
+
+    Def add(self, value):
+        Self.__result += value
+
+    Def subtract(self, value):
+        Self.__result -= value
+
+    Def get_result(self):
+        Return self.__result
+
+# Creating a Calculator object
+Calc = Calculator()
+
+# Performing addition and subtraction
+Calc.add(10)
+Calc.add(5)
+Calc.subtract(3)
+
+# Getting the result
+Result = calc.get_result()
+Print(f”Result: {result}”)

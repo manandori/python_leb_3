@@ -1,0 +1,14 @@
+Def sequential_search(elements, target):
+    For index, element in enumerate(elements):
+        If element == target:
+            Return index
+    Return -1
+
+Elements = [1, 3, 5, 8, 10, 23, 35]
+Search_target = 10
+
+Result = sequential_search(elements, search_target)
+If result != -1:
+    Print(f”Element {search_target} found at index {result}.”)
+Else:
+    Print(f”Element {search_target} not found.”)
